@@ -6,69 +6,109 @@ height:960px;
 padding-bottom: 30px;
 padding-top:10px;
 }
-    /* heading tag */
-    
-    #header {
-      /* Put a 15-pixel margin at the bottom of the heading. */
-      margin-bottom: 15px;
-      /* Align the text to the center of its enclosing element (e.g. div). */
-      text-align: center;
-      /* The background of the heading element will now be black. */
-      background-color: #ebebeb;
-      /*width*/
-      margin-left:50px;
-      margin-right:50px;
-      height:50px;
-      color: #777;
-      
-    }
-    
-    /* Nav tag */
-    
-    #nav {
-        /* Put a 15-pixel margin at the bottom of the heading. */
-        margin-bottom: 15px;
-        /* Align the text to the center of its enclosing element (e.g. div). */
-        text-align: center;
-        /* The background of the heading element will now be black. */
-        background-color: #ebebeb;
-        margin-left:50px;
-        margin-right:50px;
-        height:50px;
-        color: #777;
-      }
-    /* Section tag */
-    
-    .row{
-        display:table;
-    }
+/* heading tag */
 
-      .column{
-        /* Put a 15-pixel margin at the bottom of the heading. */
-        margin-bottom: 15px;
-        /* Align the text to the center of its enclosing element (e.g. div). */
-        text-align: center;
-        /* The background of the heading element will now be black. */
-        background-color: #ebebeb;
-        float:left;
-        margin-left:50px;
-        margin-right:50px;
-        height:200px;
-        width:350px;
-        color: #777;
-      }
-
-      
-      #footer {
-        /* Put a 15-pixel margin at the bottom of the heading. */
-        margin-bottom: 15px;
-        /* Align the text to the center of its enclosing element (e.g. div). */
-        text-align: center;
-        /* The background of the heading element will now be black. */
-        background-color: #ebebeb;
-        margin-left:50px;
-        margin-right:50px;
-        height:50px;
-        color: #777;
-      }
+#header {
+/* Put a 15-pixel margin at the bottom of the heading. */
+margin-bottom: 15px;
+/* Align the text to the center of its enclosing element (e.g. div). */
+text-align: center;
+/* The background of the heading element will now be black. */
+background-color: #ebebeb;
+color: #777;
+margin-left:50px;
+margin-right:50px;
+height:50px;
+color: #777;
+}
     
+     
+/* Nav tag */
+
+#nav {
+/* Put a 15-pixel margin at the bottom of the heading. */
+margin-bottom: 15px;
+/* Align the text to the center of its enclosing element (e.g. div). */
+text-align: center;
+/* The background of the heading element will now be black. */
+background-color: #ebebeb;
+color: #777;
+margin-left:50px;
+margin-right:50px;
+height:50px;
+}
+/* Section tag */
+
+.section{
+/* Put a 15-pixel margin at the bottom of the heading. */
+margin-bottom: 15px;
+/* Align the text to the center of its enclosing element (e.g. div). */
+text-align: center;
+/* The background of the heading element will now be black. */
+background-color: #ebebeb;
+color: #777;
+margin-left:50px;
+margin-right:20px;
+height:200px;
+width:440px;
+float: left;
+}
+
+#aside{
+/* Put a 15-pixel margin at the bottom of the heading. */
+margin-bottom: 15px;
+/* Align the text to the center of its enclosing element (e.g. div). */
+text-align: center;
+/* The background of the heading element will now be black. */
+background-color: #ebebeb;
+color: #777;
+margin-left:20px;
+margin-right:50px;
+height:200px;
+width:380px;
+float:left;
+}
+
+.article{
+background-color:#777;
+width: 420px;
+height:130px;
+margin-left:10px;
+margin-right:10px;
+margin-bottom: 10px;
+margin-top: 30px;
+position: absolute;
+color: white;
+}
+
+.section1{
+width: 380px;
+height: 35px;
+top: 6%;
+left: 2%;
+background: white;
+color: #777;
+}
+
+.section2{
+width: 380px;
+height: 35px;
+top: 40%;
+left: 2%;
+background: white;
+color: #777;
+}
+
+#footer{
+/* Put a 15-pixel margin at the bottom of the heading. */
+margin-bottom: 15px;
+/* Align the text to the center of its enclosing element (e.g. div). */
+text-align: center;
+/* The background of the heading element will now be black. */
+background-color: #ebebeb;
+color: #777;
+margin-left:50px;
+margin-right:50px;
+height:50px;
+margin-top: 250px;
+}   
