@@ -1,3 +1,5 @@
+/* page id with font family, background color,with padding on the top and bottom 
+with specific height and width. */
 #page{
 font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
 background-color:#777;
@@ -6,32 +8,25 @@ height:960px;
 padding-bottom: 30px;
 padding-top:10px;
 }
-/* heading tag */
-
+/* header id with text align to center, background color,font color,margin
+left-right and bottom,padding on the top and height */
 #header {
-/* Put a 15-pixel margin at the bottom of the heading. */
 margin-bottom: 15px;
-/* Align the text to the center of its enclosing element (e.g. div). */
 text-align: center;
-/* The background of the heading element will now be black. */
 background-color: #ebebeb;
 color: #777;
 margin-left:50px;
 margin-right:50px;
 height:50px;
-color: #777;
 padding-top: 5px;
 }
-    
      
-/* Nav tag */
+/* Nav id with text align to center, background color,font color,margin
+left-right and bottom,padding on the top and height */
 
 #nav {
-/* Put a 15-pixel margin at the bottom of the heading. */
 margin-bottom: 15px;
-/* Align the text to the center of its enclosing element (e.g. div). */
 text-align: center;
-/* The background of the heading element will now be black. */
 background-color: #ebebeb;
 color: #777;
 margin-left:50px;
@@ -39,14 +34,13 @@ margin-right:50px;
 height:50px;
 padding-top: 10px;
 }
-/* Section tag */
 
+/* section class with text align to center, background color,font color,margin
+left-right and bottom,height,width and float:left */
 .section{
-/* Put a 15-pixel margin at the bottom of the heading. */
+
 margin-bottom: 15px;
-/* Align the text to the center of its enclosing element (e.g. div). */
 text-align: center;
-/* The background of the heading element will now be black. */
 background-color: #ebebeb;
 color: #777;
 margin-left:50px;
@@ -56,12 +50,11 @@ width:440px;
 float: left;
 }
 
+/* aside class with text align to center, background color,font color,margin
+left-right and bottom,height,width and float:left */
 #aside{
-/* Put a 15-pixel margin at the bottom of the heading. */
 margin-bottom: 15px;
-/* Align the text to the center of its enclosing element (e.g. div). */
 text-align: center;
-/* The background of the heading element will now be black. */
 background-color: #ebebeb;
 color: #777;
 margin-left:20px;
@@ -71,6 +64,8 @@ width:380px;
 float:left;
 }
 
+/* article class inside section class background color, width, height, margin: top-left.rightand bottom */
+/* positon absolute */
 .article{
 background-color:#777;
 width: 420px;
@@ -83,6 +78,7 @@ position: absolute;
 color: white;
 }
 
+/* section1 class with width, height background color,font color and padding top and left */
 .section1{
 width: 380px;
 height: 35px;
@@ -91,6 +87,7 @@ left: 2%;
 background: white;
 color: #777;
 }
+/* section2 class with width, height background color,font color and padding top and left */
 
 .section2{
 width: 380px;
@@ -101,12 +98,11 @@ background: white;
 color: #777;
 }
 
+/* footer id with text align to center, background color,font color,margin
+left-right- top and bottom,padding on the top and height */
 #footer{
-/* Put a 15-pixel margin at the bottom of the heading. */
 margin-bottom: 15px;
-/* Align the text to the center of its enclosing element (e.g. div). */
 text-align: center;
-/* The background of the heading element will now be black. */
 background-color: #ebebeb;
 color: #777;
 margin-left:50px;
