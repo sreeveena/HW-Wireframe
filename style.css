@@ -51,7 +51,7 @@ float: left;
 }
 
 /* aside class with text align to center, background color,font color,margin
-left-right and bottom,height,width and float:left */
+left-right and bottom,height,width  position relativeand float:left */
 #aside{
 margin-bottom: 15px;
 text-align: center;
@@ -62,6 +62,7 @@ margin-right:50px;
 height:200px;
 width:380px;
 float:left;
+position: relative;
 }
 
 /* article class inside section class background color, width, height, margin: top-left.rightand bottom */
@@ -70,10 +71,7 @@ float:left;
 background-color:#777;
 width: 420px;
 height:130px;
-margin-left:10px;
-margin-right:10px;
-margin-bottom: 10px;
-margin-top: 30px;
+margin: 30px 10px 10px 10px;
 position: absolute;
 color: white;
 }
