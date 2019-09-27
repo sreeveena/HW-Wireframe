@@ -7,6 +7,7 @@ width: 960px;
 height:960px;
 padding-bottom: 30px;
 padding-top:10px;
+font-size: 18px;
 }
 /* header id with text align to center, background color,font color,margin
 left-right and bottom,padding on the top and height */
@@ -18,7 +19,8 @@ color: #777;
 margin-left:50px;
 margin-right:50px;
 height:50px;
-padding-top: 5px;
+padding-top: 25px;
+font-size: 18px;
 }
      
 /* Nav id with text align to center, background color,font color,margin
@@ -32,7 +34,8 @@ color: #777;
 margin-left:50px;
 margin-right:50px;
 height:50px;
-padding-top: 10px;
+padding-top: 25px;
+font-size: 18px;
 }
 
 /* section class with text align to center, background color,font color,margin
@@ -48,6 +51,8 @@ margin-right:20px;
 height:200px;
 width:440px;
 float: left;
+font-size: 18px;
+padding-top: 10px;
 }
 
 /* aside class with text align to center, background color,font color,margin
@@ -63,6 +68,8 @@ height:200px;
 width:380px;
 float:left;
 position: relative;
+font-size: 18px;
+padding-top: 10px;
 }
 
 /* article class inside section class background color, width, height, margin: top-left.rightand bottom */
@@ -73,7 +80,9 @@ width: 420px;
 height:130px;
 margin: 30px 10px 10px 10px;
 position: absolute;
-color: white;
+color: #ebebeb;
+font-size: 18px;
+padding-top: 10px;
 }
 
 /* section1 class with width, height background color,font color and padding top and left */
@@ -82,8 +91,11 @@ width: 380px;
 height: 35px;
 top: 6%;
 left: 2%;
-background: white;
+background:#ebebeb;
 color: #777;
+font-size: 18px;
+font-weight: bold;
+padding-top: 5px;
 }
 /* section2 class with width, height background color,font color and padding top and left */
 
@@ -92,8 +104,10 @@ width: 380px;
 height: 35px;
 top: 40%;
 left: 2%;
-background: white;
+background: #ebebeb;
 color: #777;
+font-size: 18px;
+padding-top: 5px;
 }
 
 /* footer id with text align to center, background color,font color,margin
@@ -107,5 +121,6 @@ margin-left:50px;
 margin-right:50px;
 height:50px;
 margin-top: 250px;
-padding-top: 5px;
+padding-top: 25px;
+font-size: 18px;
 }   
